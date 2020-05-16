@@ -1,0 +1,16 @@
+models:
+  Pitching:
+    date: date
+    inning: integer
+    balls: integer
+    strikes: integer
+    outcome: string
+    note: text
+
+  Hitting:
+    date: date
+      inning: integer
+      balls: integer
+      strikes: integer
+      outcome: string
+      note: text

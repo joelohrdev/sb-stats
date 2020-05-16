@@ -9,8 +9,8 @@ models:
 
   Hitting:
     date: date
-      inning: integer
-      balls: integer
-      strikes: integer
-      outcome: string
-      note: text
+    inning: integer
+    balls: integer
+    strikes: integer
+    outcome: string
+    note: text

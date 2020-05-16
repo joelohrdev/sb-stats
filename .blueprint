@@ -1,0 +1,10 @@
+created:
+    - database/migrations/2020_05_16_132119_create_pitchings_table.php
+    - database/migrations/2020_05_16_132120_create_hittings_table.php
+    - app/Pitching.php
+    - app/Hitting.php
+    - database/factories/PitchingFactory.php
+    - database/factories/HittingFactory.php
+models:
+    Pitching: { date: date, inning: integer, balls: integer, strikes: integer, outcome: string, note: text }
+    Hitting: { date: date, inning: integer, balls: integer, strikes: integer, outcome: string, note: text }
